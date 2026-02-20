@@ -92,6 +92,7 @@
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/editTextText3" />
+
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/button"
         android:layout_width="0dp"
@@ -101,6 +102,7 @@
         android:layout_marginBottom="92dp"
         android:height="50dp"
         android:background="@drawable/border_radius"
+        android:onClick="OnStepEmail"
         android:text="Продолжить"
         android:textColor="#0099FF"
         app:layout_constraintBottom_toBottomOf="parent"
